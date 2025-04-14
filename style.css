@@ -975,15 +975,25 @@ p {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
+     nav {
+        flex-direction: row; /* Keep nav items side-by-side */
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 1rem;
     }
 
     .nav-resume {
-        margin-bottom: 1rem;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        margin-bottom: 0;
+        z-index: 1100; /* Above other nav elements */
     }
 
+    .nav-resume a {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
     nav ul {
         flex-direction: column;
     }
