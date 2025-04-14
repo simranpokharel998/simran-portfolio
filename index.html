@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simran Pokharel - EEE Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@400;600&family=Inconsolata:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-resume">
+            <a href="https://drive.google.com/uc?export=download&id=1W6rxVC0N4E7JmY75pn5vAtzPzBzDD_dc" target="_blank" download="resume.pdf" aria-label="Download Simran Pokharel's resume">
+                <i class="fas fa-file-download"></i> Download Resume
+            </a>
+        </div>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Featured Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Connect With Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <canvas id="stars-canvas"></canvas>
+        <div class="stars"></div>
+        <h1 class="starry-text">Simran Pokharel</h1>
+        <p class="subtitle">Undergraduate EEE Student at KU | Passionate about Deep Learning, Signal Processing, and Wireless Systems</p>
+        <button class="explore-btn">Explore My Work</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>I am a recent graduate in Electrical and Electronics Engineering from Kathmandu University, Dhulikhel, Nepal. Passionate about innovation and sustainable development, I bring strong skills in circuit design, embedded systems, simulation tools, and deep learning. My interests include communication technologies, renewable energy, and emerging technologies. I am a motivated team player with a creative mindset, able to perform effectively under pressure and deliver high-quality results.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://drive.google.com/thumbnail?id=1iDmWbdNKFlStSXYuRBnTB5qMKzRqU9Ic" alt="Simran Pokharel">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>LANGUAGES</h3>
+                <div class="skill-card" data-skill="C, C++, Python">
+                    <div class="skill-front">C, C++, Python</div>
+                    <div class="skill-back">Proficient in system programming</div>
+                </div>
+                <div class="skill-card" data-skill="HTML & CSS">
+                    <div class="skill-front">HTML & CSS</div>
+                    <div class="skill-back">Skilled in building responsive web interfaces</div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>TECHNOLOGIES & TOOLS</h3>
+                <div class="skill-card" data-skill="Proteus/KiCad">
+                    <div class="skill-front">Proteus/KiCad</div>
+                    <div class="skill-back">Circuit simulation and PCB design</div>
+                </div>
+                <div class="skill-card" data-skill="Optisystem">
+                    <div class="skill-front">Optisystem</div>
+                    <div class="skill-back">For optical fiber system analysis and simulation</div>
+                </div>
+                <div class="skill-card" data-skill="MATLAB & Simulink">
+                    <div class="skill-front">MATLAB & Simulink</div>
+                    <div class="skill-back">For system modeling, control design, and signal processing</div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>SKILLS</h3>
+                <div class="skill-card" data-skill="Deep Learning">
+                    <div class="skill-front">Deep Learning</div>
+                    <div class="skill-back">Training & Developing neural networks models</div>
+                </div>
+                <div class="skill-card" data-skill="Signal Processing">
+                    <div class="skill-front">Signal Processing</div>
+                    <div class="skill-back">Audio analysis and communication systems</div>
+                </div>
+                <div class="skill-card" data-skill="Control System Design">
+                    <div class="skill-front">Control System Design (Simulink)</div>
+                    <div class="skill-back">Designed and simulated dynamic control systems</div>
+                </div>
+                <div class="skill-card" data-skill="FPGA Programming">
+                    <div class="skill-front">FPGA Programming (VHDL)</div>
+                    <div class="skill-back">Designed digital systems using VHDL for FPGA platforms</div>
+                </div>
+                <div class="skill-card" data-skill="OOP/AWS">
+                    <div class="skill-front">OOP/AWS</div>
+                    <div class="skill-back">Python for Data Science</div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>EMBEDDED SYSTEMS & ROBOTICS</h3>
+                <div class="skill-card" data-skill="Microcontrollers">
+                    <div class="skill-front">Microcontrollers</div>
+                    <div class="skill-back">Programmed for automation and hardware control tasks</div>
+                </div>
+                <div class="skill-card" data-skill="Solar Integration">
+                    <div class="skill-front">Solar Integration</div>
+                    <div class="skill-back">Designed systems integrating solar power with embedded hardware</div>
+                </div>
+                <div class="skill-card" data-skill="Autonomous Robotics">
+                    <div class="skill-front">Autonomous Robotics</div>
+                    <div class="skill-back">Developed and tested robotic systems with autonomous navigation</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="project">
+            <img src="https://drive.google.com/thumbnail?id=1ydloScxGC78YwxJyWoxBEs0w_Uisoaxn" alt="Robotic Crawler">
+            <div class="project-info">
+                <h3>Robotic Crawler</h3>
+                <p>Designed and fabricated a robotic arm control system with precision movement, utilizing Proteus for simulation and KiCad for circuit design. The project focused on developing a responsive, real-time control mechanism.</p>
+                <div class="tools-used">
+                    <span class="tool"><i class="fas fa-microchip"></i> Sensor Data</span>
+                    <span class="tool"><i class="fas fa-cogs"></i> Control System</span>
+                    <span class="tool"><i class="fas fa-drafting-compass"></i> Proteus</span>
+                    <span class="tool"><i class="fas fa-circuit-board"></i> KiCad</span>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <img src="https://drive.google.com/thumbnail?id=1kZz4RtVwow_ioVKbjKc-ZhOx81Vvg1uG" alt="8-Bit Computer">
+            <div class="project-info">
+                <h3>8-Bit Computer</h3>
+                <p>Built a fully functional 8-bit computer from the ground up, covering both hardware and logic design. Conducted rigorous testing to ensure reliable performance and adherence to core computing principles.</p>
+                <div class="tools-used">
+                    <span class="tool"><i class="fas fa-microchip"></i> Microprocessors</span>
+                    <span class="tool"><i class="fas fa-code"></i> Assembly</span>
+                    <span class="tool"><i class="fas fa-toolbox"></i> Logic Design</span>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <img src="https://drive.google.com/thumbnail?id=1sS7vq_B6iyHsXYwzLrOLf7yMzRFq1xdp" alt="Smart Meter">
+            <div class="project-info">
+                <h3>Smart Meter & Prepaid Billing</h3>
+                <p>Developed a smart electricity meter integrated with a prepaid billing system. Combined hardware components and embedded programming to enable accurate measurement, user-friendly billing, and efficient energy management.</p>
+                <div class="tools-used">
+                    <span class="tool"><i class="fas fa-plug"></i> Embedded Systems</span>
+                    <span class="tool"><i class="fas fa-calculator"></i> Billing Logic</span>
+                    <span class="tool"><i class="fas fa-microchip"></i> Microcontrollers</span>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <img src="https://drive.google.com/thumbnail?id=1CP58CTce5KAxUJlf9h_872gWmqEuJJeG" alt="Audio Recognition">
+            <div class="project-info">
+                <h3>Audio Recognition with Deep Learning</h3>
+                <p>Implemented a deep learning model using Python to classify and recognize audio signals. Trained and tested the model for high-accuracy performance in signal detection and classification tasks.</p>
+                <div class="tools-used">
+                    <span class="tool"><i class="fas fa-brain"></i> Deep Learning</span>
+                    <span class="tool"><i class="fas fa-code"></i> Python</span>
+                    <span class="tool"><i class="fas fa-wave-square"></i> Signal Processing</span>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <img src="https://drive.google.com/thumbnail?id=1QwIZqDumPZoYrW9V4QBPKAMhN46_tbRB" alt="Fiber Analysis">
+            <div class="project-info">
+                <h3>Multimode Fiber Analysis</h3>
+                <p>Analyzed the transmission characteristics of single-mode and multimode optical fibers using OptiSystem software. Assessed performance metrics such as attenuation and dispersion to evaluate efficiency in data transmission.</p>
+                <div class="tools-used">
+                    <span class="tool"><i class="fas fa-fiber"></i> OptiSystem</span>
+                    <span class="tool"><i class="fas fa-chart-line"></i> Data Analysis</span>
+                    <span class="tool"><i class="fas fa-lightbulb"></i> Fiber Optics</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="cert-container">
+            <div class="cert-card" data-cert="Certification 1">
+                <div class="cert-inner">
+                    <div class="cert-front">
+                        <h3>Certification 1</h3>
+                        <p>Details to be added</p>
+                    </div>
+                    <div class="cert-back">
+                        <h3>Certification 1</h3>
+                        <p>Explore my credentials</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cert-card" data-cert="Certification 2">
+                <div class="cert-inner">
+                    <div class="cert-front">
+                        <h3>Certification 2</h3>
+                        <p>Details to be added</p>
+                    </div>
+                    <div class="cert-back">
+                        <h3>Certification 2</h3>
+                        <p>Explore my credentials</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cert-card" data-cert="Certification 3">
+                <div class="cert-inner">
+                    <div class="cert-front">
+                        <h3>Certification 3</h3>
+                        <p>Details to be added</p>
+                    </div>
+                    <div class="cert-back">
+                        <h3>Certification 3</h3>
+                        <p>Explore my credentials</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <div class="achievement-container">
+            <div class="achievement-card">
+                <h3>Outstanding Project Award</h3>
+                <p>Received recognition for the Smart Meter project at Kathmandu University for innovation in energy management.</p>
+            </div>
+            <div class="achievement-card">
+                <h3>Antenna Station Design</h3>
+                <p>Designed a complete antenna station, including all required equipment and machinery, and presented a comprehensive technical report on the project.</p>
+            </div>
+            <div class="achievement-card">
+                <h3>Research Publication</h3>
+                <p>Co-authored a paper on Smart Meter with prepaid system analysis published as IEEE research paper.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect With Me Section -->
+    <section id="contact">
+        <div class="contact-particles"></div>
+        <h2>Let's Connect</h2>
+        <div class="contact-card">
+            <p><i class="fas fa-envelope"></i> Email: <a href="mailto:Simranpokharel30@gmail.com">Simranpokharel30@gmail.com</a></p>
+            <p><i class="fas fa-phone"></i> Phone: +977 9860538581</p>
+            <p><i class="fas fa-map-marker-alt"></i> Address: Hadigaun, Nakshal, Kathmandu</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/simran-pokharel-9174b427b" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/simranpokharel30" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            </div>
+            <button class="contact-btn">Send a Message</button>
+        </div>
+        <div class="contact-modal">
+            <div class="modal-content">
+                <span class="modal-close">×</span>
+                <h3>Contact Me</h3>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
