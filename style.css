@@ -74,6 +74,7 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
+padding-left: 150px;
 }
 
 nav ul li {
@@ -114,6 +115,12 @@ nav ul li a::after {
 nav ul li a:hover::after,
 nav ul li a.active::after {
     width: 100%;
+.nav-resume {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1200;
+}
 }
 
 /* Home Section */
@@ -975,32 +982,50 @@ p {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-     nav {
-        flex-direction: row; /* Keep nav items side-by-side */
-        justify-content: space-between;
-        align-items: center;
-        padding: 0.5rem 1rem;
-    }
+    nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    z-index: 1000;
+}
 
-    .nav-resume {
-        position: fixed;
-        top: 10px;
-        right: 10px;
-        margin-bottom: 0;
-        z-index: 1100; /* Above other nav elements */
-    }
+.nav-resume {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1200;
+}
 
-    .nav-resume a {
-        font-size: 0.9rem;
-        padding: 0.4rem 0.8rem;
-    }
-    nav ul {
-        flex-direction: column;
-    }
+.nav-resume a {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+}
 
-    nav ul li {
-        margin: 0.5rem 0;
-    }
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: auto;
+    margin: 0;
+    padding-left: 150px;
+}
+
+nav ul li {
+    margin: 0 0.3rem;
+}
+
+nav ul li a {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.4rem;
+} 
+
+    
+   
 
     #home h1 {
         font-size: 3rem;
